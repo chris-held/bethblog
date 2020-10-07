@@ -10,7 +10,7 @@ const BlogPost = ({ siteTitle, frontmatter, markdownBody }) => {
   return (
     <Layout title={`${siteTitle} | ${frontmatter.title}`}>
       <Link href="/">
-        <a>Back to Recipes</a>
+        <a>Back</a>
       </Link>
       <article>
         <h1>{frontmatter.title}</h1>
